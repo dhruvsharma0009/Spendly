@@ -44,7 +44,7 @@ def add_expense():
 
 @app.route("/expenses/<int:id>/edit")
 def edit_expense(id):
-    return "Edit expense — coming in Step 8"
+    return "Edit expense — coming in Step *8"
 
 
 @app.route("/expenses/<int:id>/delete")
